@@ -1,0 +1,76 @@
+<html>
+<head>
+    <title>tampilan LOGIN</title>
+    <style>
+body{
+    font-family: sans-serif;
+	background-image: url(backgroud.webp);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.kotak_login{
+	width: 350px;
+	background: white;
+	/*meletakkan form ke tengah*/
+	margin: 80px auto;
+	padding: 30px 20px;
+}
+ 
+.tulisan_login{
+	text-align: center;
+	/*membuat semua huruf menjadi kapital*/
+	text-transform: uppercase;
+}
+ 
+label{
+	font-size: 11pt;
+}
+ 
+.form_login{
+	/*membuat lebar form penuh*/
+	box-sizing : border-box;
+	width: 100%;
+	padding: 10px;
+	font-size: 11pt;
+	margin-bottom: 20px;
+}
+ 
+.tombol_login{
+	background: rgb(87, 132, 255);
+	color: white;
+	font-size: 11pt;
+	width: 100%;
+	border: none;
+	border-radius: 3px;
+	padding: 10px 20px;
+}
+ 
+
+}
+</style>
+</head>
+<body>
+
+ 
+	<div><div class="kotak_login">
+        <p class="tulisan_login">AYO,BELAJAR</p>
+ 
+		<form>
+            <P>
+			<label>Username</label>
+			<input type="text" name="username" class="form_login" placeholder="Username atau email ..">
+            </P>
+			<P><label>Password</label>
+			<input type="text" name="password" class="form_login" placeholder="Password ..">
+            </P>
+            
+            <P><input type="submit" class="tombol_login" value="LOGIN"></P>
+ 
+			<br/>
+			<br/>
+		</form>
+		
+	</div>
+        
+</body>
+</html>
