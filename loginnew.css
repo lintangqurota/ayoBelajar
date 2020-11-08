@@ -1,0 +1,55 @@
+body {
+    background-image:url(background.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h3{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.tabel1{
+    margin-top: 50px;
+    float: center;
+    position: relative;
+    left: 520px;
+}
+form{
+    margin: auto;
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+input{
+    margin: 15px;
+    width: 350px;
+    padding: 9px;
+    background-color: rgba(250, 244, 244, 0.87);
+    border:2px solid rgb(146, 146, 146);
+    text-align: left;
+}
+input[type="checkbox"]{
+    display: inline;
+    width: 15px;
+    position: relative;
+    right: 100px;
+}
+label span{
+    position: relative;
+    right: 110px;
+}
+#Signup{
+    color: blue;
+    padding-left: 9px;
+    position: relative;
+    left: 60px;
+
+}
+#submit{
+    margin: 15px;
+    width: 180px;
+    padding: 7px;
+    border-radius: 20px;
+    background-color: rgba(30, 126, 216, 0.788);
+    border-color: rgba(30, 126, 216, 0.788) ;
+    text-align: center;
+}
