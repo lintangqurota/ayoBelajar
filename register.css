@@ -1,0 +1,40 @@
+body {
+    background-image:url(background.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+table,tr,td{
+    float: center;
+    position: relative;
+    left: 260px;
+}
+h4{
+    margin-top: 0mm;
+}
+form{
+    margin: 50px;
+    margin-bottom: 30px;
+   
+}
+input{
+    margin: 15px;
+    width: 350px;
+    padding: 9px;
+    background-color: rgba(250, 244, 244, 0.87);
+    border:2px solid rgb(146, 146, 146);
+}
+#SignIn{
+    color: blue;
+    padding-left: 9px;
+
+}
+#submit{
+    margin: 15px;
+    width: 180px;
+    padding: 7px;
+    border-radius: 10px;
+    background-color: rgba(30, 126, 216, 0.788);
+    border-color: rgba(30, 126, 216, 0.788) ;
+}
+}
