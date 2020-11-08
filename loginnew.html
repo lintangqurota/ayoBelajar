@@ -2,29 +2,31 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Login AYO, BELAJAR</title>
+    <title>Ayo, Belajar</title>
+    <link rel="stylesheet" href="loginnew.css">
 </head>
 <body>
-    <h2>AYO, BELAJAR</h2>
-    <br>
+    <table class="tabel1">
+        <tr>
+        <td>
+            <img src="icon.png" width = 40px>
+        </td>
+        <td>
+            <h1>AYO, BELAJAR</h1>
+        </td>
+        </tr>
+    </table>
     <h3>USER LOGIN</h3>
     <form>
-        <input type="text" name="username" class="form_login" placeholder="Username atau email ..">
+        <input type="text" name="username" class="form_login" placeholder="Username atau email">
         <br>
         <input type="password" placeholder="Password">
         <br>
-        <table>
-            <tr>
-                <td>
-                    <input type="checkbox">remember me
-                </td>
-                <td>
-                    sign up
-                </td>
-            </tr>
-        </table>
+        <input type="checkbox" name="Remember me" id="c1">
+        <label for="c1"><span>Remember me</span></label>
+        <a href="#" id="Signup" >Sign up</a>
         <br>
-        <input type="submit" value="Log in">
+        <input id="submit" type="submit" value="Log in">
     </form>
 </body>
 </html>
