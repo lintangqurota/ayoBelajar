@@ -42,6 +42,7 @@ label span{
     padding-left: 9px;
     position: relative;
     left: 60px;
+    text-decoration: none;
 
 }
 #submit{
