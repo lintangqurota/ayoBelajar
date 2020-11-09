@@ -27,6 +27,7 @@ input{
 #SignIn{
     color: blue;
     padding-left: 9px;
+    text-decoration: none;
 
 }
 #submit{
@@ -36,5 +37,4 @@ input{
     border-radius: 10px;
     background-color: rgba(30, 126, 216, 0.788);
     border-color: rgba(30, 126, 216, 0.788) ;
-}
 }
