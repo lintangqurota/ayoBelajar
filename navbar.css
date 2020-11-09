@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding: 0;
+}
+table,tr,td{
+    float: center;
+    margin-top: 10px;
+}
+nav{
+    margin-top: 5px;
+    text-align: center;
+    width: 100%;
+}
+nav ul{
+    padding: 0px;
+    background-color: #73befcd8;
+    position: relative;
+    display: inline-table;
+    width: 100%;
+    list-style: none;
+}
+nav ul li{
+    float: left;
+}
+nav ul li:hover a{
+    color: black;
+    font-weight: bold;
+}
+nav ul li a{
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color:black;
+    margin-left: 5px;
+    margin-right: 5px;
+    position: relative;
+    left: 500px ;
+    font-size:19px;
+
+}
