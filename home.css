@@ -182,12 +182,21 @@ left: 1070px;
 border-radius: 20px;
 background-color: #73befcd8;
 }
-.catatan{
-  max-width: 160px;
+#text{
+max-width: 160px;
 padding: 10px;
 text-align: center;
 position: relative;
 bottom:40px;
 left: 1070px;
 border-radius: 20px;
+background-color: #73befcd8;
+}
+.catatan input{
+  max-width: 160px;
+padding: 50px;
+text-align: center;
+position: relative;
+bottom:30px;
+left: 1030px;
 }
