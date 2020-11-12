@@ -63,39 +63,58 @@ nav ul li a{
 }
 h3{
   text-align: center;
+  color: white;
+}
+.text{
+width: 150px;
+font-size: 17px;
+color: white;
 }
 .materi{
   margin: auto;
   float: left;
   width: 15%;
-  height: 250px;
+  height: 260px;
   padding: 20px;
-  border: 2px solid black;
   border-radius: 8px;
   align-items: left;
-  
+  position: relative;
+  left: 30px;
+  background-color: rgba(160, 153, 153, 0.849);
 }
 .latihan{
   margin: auto;
   float: center;
+  margin-top:80px;
   width: 15%;
-  height: 250px;
+  height: 260px;
   padding: 20px;
-  border: 2px solid black;
   border-radius: 8px;
   align-items: center;
-  
+  position: relative;
+  right: 220px;
+  background-color:rgba(183, 183, 199, 0.973) ;
 }
 .chat{
   margin: auto;
   float: right;
   width: 15%;
-  height: 250px;
+  height: 260px;
   padding: 20px;
-  border: 2px solid black;
   border-radius: 8px;
   align-items: right;
+  position: relative;
+  bottom:300px;
+  right: 470px;
+  background-color: rgba(180, 168, 231, 0.842);
   
+}
+.konten button{
+  padding:7px;
+  border-radius: 5px;
+  border:2px solid white;
+  background-color: transparent;
+  color: white;
 }
 main {
   max-width: -webkit-max-content;
@@ -103,15 +122,19 @@ main {
   max-width: max-content;
   margin:auto;
   float: right;
-  padding: 1.5em;
+  padding: 17px;
   border: 2px solid var(--blue-grey-200);
   border-radius: 8px;
+  position: relative;
+  bottom: 340px;
+  left: 192px;
  
 }
 .indikator-bulan {
   text-align: center;
   font-weight: 500;
   margin-bottom: 30px;
+  font: bold;
 }
 .date-grid{
     display: grid;
@@ -148,4 +171,23 @@ main {
 .date-grid button.is-selected {
     background-color: var(--teal-100);
     color: var(--teal-900);
+}
+.kalender{
+max-width: 160px;
+padding: 10px;
+text-align: center;
+position: relative;
+bottom:360px;
+left: 1070px;
+border-radius: 20px;
+background-color: #73befcd8;
+}
+.catatan{
+  max-width: 160px;
+padding: 10px;
+text-align: center;
+position: relative;
+bottom:40px;
+left: 1070px;
+border-radius: 20px;
 }
