@@ -32,9 +32,10 @@ input{
 }
 #submit{
     margin: 15px;
-    width: 180px;
-    padding: 7px;
+    padding: 7px 50px;
     border-radius: 10px;
     background-color: rgba(30, 126, 216, 0.788);
     border-color: rgba(30, 126, 216, 0.788) ;
+    text-decoration: none;
+    color: black;
 }

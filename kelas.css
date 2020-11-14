@@ -1,0 +1,42 @@
+.konten{
+    width: 300px;
+    height: 600px;
+    background-color:  #73befcd8;
+    border-radius: 10px;
+    text-align: center;
+}
+.kelas{ 
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font: bold;
+    display: grid;
+    grid-row: 6;
+    margin-bottom: 50px;
+    background-color: rgba(32, 105, 214, 0.815);
+    padding: 7px;
+    width: 120px;
+    border-radius: 10px;
+    position: relative;
+    left: 30px;
+}
+textarea{
+    float: right;
+    position: relative;
+    bottom: 600px;
+    right: 300px;
+}
+#text2{
+    max-width: 160px;
+    padding: 10px 80px;
+    text-align: center;
+    position: relative;
+    bottom:30px;
+    left: 800px;
+    border-radius: 20px;
+    background-color: #73befcd8;
+    color: black;
+    text-decoration: none;
+}
+h4{
+    font: bold;
+}

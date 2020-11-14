@@ -47,10 +47,11 @@ label span{
 }
 #submit{
     margin: 15px;
-    width: 180px;
-    padding: 7px;
+    padding: 7px 60px;
     border-radius: 20px;
     background-color: rgba(30, 126, 216, 0.788);
-    border-color: rgba(30, 126, 216, 0.788) ;
     text-align: center;
+    text-decoration: none;
+    color: black;
+
 }
