@@ -1,0 +1,72 @@
+
+
+
+.word {
+    color: black;
+}
+
+
+
+.word2 {
+    margin-left: auto;
+}
+
+
+.box-kiri {
+    border: 1px solid rgba(0, 0, 0, 0);
+    position: fixed;
+    height: 100%;
+    width: 70%;
+    left: 0;
+    top: 0;
+}
+
+.box-kanan {
+    border: 1px solid black;
+    position: fixed;
+    height: 90%;
+    width: 28%;
+    right: 3%;
+    top: 15%;
+}
+
+.namadepan {
+    width: 250px;
+    height: 30px;
+}
+
+.namabelakang {
+    width: 250px;
+    height: 30px;
+}
+
+.email {
+    width: 410px;
+    height: 30px;
+}
+
+.submit {
+    width: 167px;
+    height: 30px;
+    border-radius: 50px;
+    background: #2D9CDB;
+    margin-left: 400px;
+}
+
+.icon-fb {
+    border: 1px solid black;
+    width: 76px;
+    height: 72px;
+}
+
+.icon-twt {
+    border: 1px solid black;
+    width: 76px;
+    height: 72px;
+}
+
+.icon-gmail {
+    border: 1px solid black;
+    width: 76px;
+    height: 72px;
+}
