@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Ayo,Belajar</title>
     <link rel="stylesheet" href="D:\Kuliah\Semester 3\PEWEB\website AYO,BELAJAR\css\register.css">
+    <script src="D:\Kuliah\Semester 3\PEWEB\website AYO,BELAJAR\javascript\jsRegister.js"></script>
 </head>
 <body>
     <table>
@@ -17,7 +18,7 @@
         </tr>
     </table>
    <h4>join AYO, BELAJAR now it's free</h4>
-    <form action="home.html">
+    <form action="home.html" method="POST" id="form">
         <input type="text" placeholder="First Name" required>
         <br>
         <input type="text" placeholder="Last Name" required>
@@ -26,10 +27,10 @@
         <br>
         <input type="password" placeholder="Password" required>
         <br>
-        <input type="submit" value="Join Now" onclick="('home.html')">
+        <button type="submit" value="Join Now" onclick="('home.html')">Join Now</button>
     </form>
         <h4>
-            already have an account?<a href="loginnew.html" id="SignIn" \ >Sign in</a>  
+            already have an account?<a href="loginnew.html" id="SignIn" >Sign in</a>  
         </h4>
 </body>
 </html>

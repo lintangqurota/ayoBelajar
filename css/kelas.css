@@ -5,20 +5,6 @@
     border-radius: 10px;
     text-align: center;
 }
-.kelas{ 
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    font: bold;
-    display: grid;
-    grid-row: 6;
-    margin-bottom: 50px;
-    background-color: rgba(32, 105, 214, 0.815);
-    padding: 7px;
-    width: 120px;
-    border-radius: 10px;
-    position: relative;
-    left: 30px;
-}
 textarea{
     float: right;
     position: relative;
@@ -38,5 +24,7 @@ textarea{
     text-decoration: none;
 }
 h4{
+    position: relative;
+    top: 30px;
     font: bold;
 }

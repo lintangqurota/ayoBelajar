@@ -30,7 +30,7 @@ input{
     text-decoration: none;
 
 }
-#submit{
+button{
     margin: 15px;
     padding: 7px 50px;
     border-radius: 10px;
