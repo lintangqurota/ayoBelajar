@@ -45,13 +45,13 @@ label span{
     text-decoration: none;
 
 }
-#submit{
+button{
     margin: 15px;
-    padding: 7px 60px;
-    border-radius: 20px;
-    background-color: rgba(30, 126, 216, 0.788);
+    width: 180px;
+    padding: 9px;
+    border-radius: 15px;
+    background-color: rgba(0, 110, 255, 0.753);
     text-align: center;
-    text-decoration: none;
-    color: black;
-
+    font-size: 15px;
+    border: transparent;
 }

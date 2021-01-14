@@ -1,32 +1,35 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Ayo, Belajar</title>
-    <link rel="stylesheet" href="loginnew.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selamat datang</title>
+    <script src="D:\Kuliah\Semester 3\PEWEB\website AYO,BELAJAR\javascript\jsLogin.js"></script>
+    <link rel="stylesheet" href="D:\Kuliah\Semester 3\PEWEB\website AYO,BELAJAR\css\loginnew.css">
 </head>
-<body>
+<body> 
     <table class="tabel1">
         <tr>
         <td>
-            <img src="icon.png" width = 40px>
+            <img src="D:\Kuliah\Semester 3\PEWEB\website AYO,BELAJAR\css\icon.png" width = 40px>
         </td>
         <td>
             <h1>AYO, BELAJAR</h1>
         </td>
         </tr>
     </table>
-    <h3>USER LOGIN</h3>
-    <form>
-        <input type="text" name="username" class="form_login" placeholder="Username atau email">
-        <br>
-        <input type="password" placeholder="Password">
-        <br>
-        <input type="checkbox" name="Remember me" id="c1">
-        <label for="c1"><span>Remember me</span></label>
-        <a href="register.html" id="Signup" >Sign up</a>
-        <br>
-        <a href="home.html" id="submit">Login</a>
-    </form>
+    <body>
+        <form action="home.html" method="get" id="myForm" onsubmit=" return validasi()">
+          <h2>User Login</h2>
+          <input type="text" name="username" placeholder="username">
+          <br>
+          <input type="password" name="password" placeholder="password">
+          <br>
+          <input type="checkbox" name="Remember me" id="c1">
+          <label for="c1"><span>Remember me</span></label>
+          <a href="register.html" id="Signup" >Sign up</a>
+          <br>
+          <button type="submit"class="login" name="submit" onclick="pindah('home.html')"> Login</button>
+        </form>
 </body>
 </html>
