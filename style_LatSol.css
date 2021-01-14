@@ -1,0 +1,159 @@
+header {
+    border: 1px solid black;
+    background-color: aqua;
+    border-radius: 10px;
+}
+
+.word {
+    border: 1px solid rgba(0, 0, 0, 0);
+    display: inline-block;
+    width: 700px;
+}
+
+.word2 {
+    display: inline-block;
+    margin-left: 90px;
+}
+
+.search {
+    border: 2px solid black;
+    border-radius: 50px;
+    width: 533px;
+    height: 74px;
+}
+
+.search-box {
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 50px;
+    width: 400px;
+    height: 70px;
+}
+
+.search-button {
+    width: 42px;
+    height: 39px;
+    background-image: url(https://www.netclipart.com/pp/m/301-3019197_search-magnifying-glass-icon-search-icon-png.png);
+    background-size: cover;
+}
+
+.latihan {
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 50px;
+    width: 355px;
+    background-color: RGBA(45, 156, 219, 0.35);
+    text-align: center;
+    font-size: 33px;
+    line-height: 49px;
+}
+
+.text-box {
+    display: inline-block;
+    width: 449px;
+    height: 289px;
+    border: 2px solid #00000000;
+    box-sizing: border-box;
+}
+
+.box1 {
+    display: inline-block;
+    width: 229px;
+    height: 289px;
+    background: rgba(241, 115, 115, 0.25);
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    margin-left: 7px;
+}
+
+.box2 {
+    display: inline-block;
+    width: 229px;
+    height: 289px;
+    background: rgba(220, 110, 8, 0.37);
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    margin-left: 90px;
+}
+
+.box3 {
+    display: inline-block;
+    width: 229px;
+    height: 289px;
+    background: rgba(45, 156, 219, 0.35);
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    margin-left: 90px;
+}
+
+.box4 {
+    display: inline-block;
+    width: 229px;
+    height: 289px;
+    background: rgba(38, 210, 179, 0.35);
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    margin-left: 7px;
+}
+
+.box5 {
+    display: inline-block;
+    width: 229px;
+    height: 289px;
+    background: rgba(173, 131, 206, 0.63);
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    margin-left: 90px;
+}
+
+.box6 {
+    display: inline-block;
+    width: 229px;
+    height: 289px;
+    background: #D7CFCF;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    margin-left: 90px;
+}
+
+.content {
+    font-family: Sedan;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 50px;
+    text-align: center;
+    position: absolute;
+    width: 448px;
+    border-radius: 10px;
+    margin-top: 130px;
+}
+
+.content2 {
+    position: absolute;
+    border: 1px solid rgba(0, 0, 0, 0);
+    width: 308px;
+    border-radius: 50px;
+    background-color: #C4C4C4;
+    font-family: Sedan;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 50px;
+    text-align: center;
+    margin-top: 240px;
+}
+
+.text {
+    position: absolute;
+    width: 161px;
+    border: 5px solid #FFFFFF;
+    border-radius: 10px;
+    font-family: Sedan;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 60px;
+    align-items: center;
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 30px;
+}
