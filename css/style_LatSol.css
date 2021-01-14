@@ -1,3 +1,8 @@
+header {
+    border: 1px solid black;
+    background-color: aqua;
+    border-radius: 10px;
+}
 
 .word {
     border: 1px solid rgba(0, 0, 0, 0);
